@@ -200,12 +200,13 @@ void olho_cobra ()
 					pontos_turno_jogador_1 = dado_1 + dado_2 + pontos_turno_jogador_1;
 				}	
 			} 
-			if(pontos_total_jogador_1 >= 50)
+		}
+		 if(pontos_total_jogador_1 >= 50)
 			{
 				printf("\n\nparabens %s, vc ganhou.",jogador_1);
-			}                
-		}
-		
+				break;
+			} 
+	
 		
 		printf("\nturno do(a) %s\n",jogador_2);
 		dado_1 = (rand() %6) + 1;
@@ -258,7 +259,7 @@ void olho_cobra ()
 			{
 				printf("\n\nparabens %s, vc ganhou.",jogador_2);
 			}
-		
+	
 	}
 	
 
