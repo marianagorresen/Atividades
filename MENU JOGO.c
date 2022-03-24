@@ -271,7 +271,7 @@ int main()
 	int opc, i;
 	menu:
 	system("cls");
-	printf("Bem-vindo ao aplicativo de jogos!\nNesse aplicativo existem 3 jogos, escolha a um dos joga e divirta-se.\n");
+	printf("Bem-vindo ao aplicativo de jogos!\nNesse aplicativo existem 3 jogos, escolha a um dos jogos e divirta-se.\n");
 	printf("1. Pergunta e resposta.\n2. Adivinhe o numero.\n3. Olho de cobra.\n4. Sair\n");
 	scanf("%d", &opc);
 	
